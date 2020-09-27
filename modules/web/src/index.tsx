@@ -1,5 +1,5 @@
 import { fetchMachine } from "~machinery/fetchMachine";
-import { useMachine } from "@xstate/compiled/react";
+import { useMachine } from "~machinery/xstate/react";
 
 export default function App() {
   const [current] = useMachine(fetchMachine);

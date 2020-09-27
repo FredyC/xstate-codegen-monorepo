@@ -2,7 +2,7 @@
   "name": "@my/machinery",
   "version": "0.0.0",
   "scripts": {
-    "codegen": "xstate-codegen src/**Machine.ts"
+    "codegen": "xstate-codegen src/**Machine.ts --outDir src/compiled/xstate"
   },
   "dependencies": {
     "xstate": "^4.x"
