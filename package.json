@@ -1,0 +1,16 @@
+{
+  "name": "@my/root",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "12",
+    "typescript": "3.9.x"
+  },
+  "workspaces": [
+    "modules/*"
+  ],
+  "scripts": {
+    "web": "yarn workspace @my/web",
+    "machinery": "yarn workspace @my/machinery"
+  }
+}

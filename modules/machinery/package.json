@@ -1,0 +1,13 @@
+{
+  "name": "@my/machinery",
+  "version": "0.0.0",
+  "scripts": {
+    "codegen": "xstate-codegen src/**Machine.ts"
+  },
+  "dependencies": {
+    "xstate": "^4.x"
+  },
+  "devDependencies": {
+    "xstate-codegen": "^0.2.0"
+  }
+}

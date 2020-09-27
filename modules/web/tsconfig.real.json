@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~web/*": ["./src/*"],
+      "~machinery/xstate": ["../machinery/src/generated/xstate"],
+      "~machinery/*": ["../machinery/src/*"]
+    },
+    "lib": ["dom", "dom.iterable", "ESNext"],
+    "noEmit": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "noUnusedLocals": false
+  },
+  "include": ["src"]
+}
